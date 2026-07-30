@@ -8,7 +8,7 @@ echo  TDS Data-Analyst Bot - keep this window OPEN during grading
 echo  Press Ctrl+C twice to stop.
 echo ============================================================
 :loop
-python -u bot.py
+"C:\Python313\python.exe" -u bot.py
 echo.
 echo [launcher] bot exited. Restarting in 5 seconds... (close window to stop)
 timeout /t 5 /nobreak >nul
